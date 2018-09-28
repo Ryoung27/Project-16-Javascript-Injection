@@ -15,6 +15,7 @@
 		02036EB4215EB9F4004029BC /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02036EB3215EB9F4004029BC /* ActionViewController.swift */; };
 		02036EB7215EB9F4004029BC /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02036EB5215EB9F4004029BC /* MainInterface.storyboard */; };
 		02036EBB215EB9F4004029BC /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 02036EB1215EB9F4004029BC /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		02036EC5215EBD71004029BC /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = 02036EC4215EBD71004029BC /* Action.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		02036EB3215EB9F4004029BC /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		02036EB6215EB9F4004029BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		02036EB8215EB9F4004029BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02036EC4215EBD71004029BC /* Action.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				02036EB3215EB9F4004029BC /* ActionViewController.swift */,
 				02036EB5215EB9F4004029BC /* MainInterface.storyboard */,
 				02036EB8215EB9F4004029BC /* Info.plist */,
+				02036EC4215EBD71004029BC /* Action.js */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02036EC5215EBD71004029BC /* Action.js in Resources */,
 				02036EB7215EB9F4004029BC /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
